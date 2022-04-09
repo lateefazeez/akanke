@@ -1,9 +1,10 @@
-import "./App.css";
+import "./App.scss";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the great Akanke Store!</h1>
+      <Header />
     </div>
   );
 }
